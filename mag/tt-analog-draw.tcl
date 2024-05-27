@@ -2,7 +2,7 @@
 # https://github.com/TinyTapeout/tt-support-tools/blob/tt06/def/analog/tt_block_1x2_pg_ana.def
 
 def read tt_block_1x2_pg_ana.def
-cellname rename tt_um_template tt_um_comparator
+cellname rename tt_um_template tt_um_Saitama224_comp
 
 # VPWR
 box 100 500 250 22076
@@ -23,5 +23,5 @@ port VGND class bidirectional
 port conn n s e w
 
 # Export
-gds write ../gds/tt_um_comparator.gds
-lef write ../lef/tt_um_comparator.lef -pinonly
+gds write ../gds/tt_um_Saitama224_comp.gds
+lef write ../lef/tt_um_Saitama224_comp.lef -pinonly

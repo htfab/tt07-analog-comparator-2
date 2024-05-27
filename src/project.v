@@ -5,7 +5,7 @@
 
 `default_nettype none
 
-module tt_um_comparator (
+module tt_um_Saitama224_comp (
     input  wire       VGND,
     input  wire       VPWR,
     input  wire [7:0] ui_in,    // Dedicated inputs
