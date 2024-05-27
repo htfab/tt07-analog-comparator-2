@@ -2,9 +2,9 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO comp
+MACRO tt_um_Saitama224_comp
   CLASS BLOCK ;
-  FOREIGN comp ;
+  FOREIGN tt_um_Saitama224_comp ;
   ORIGIN 0.000 0.000 ;
   SIZE 161.000 BY 225.760 ;
   PIN clk
@@ -888,6 +888,6 @@ MACRO comp
         RECT 134.330 1.000 135.230 210.760 ;
         RECT 156.410 1.000 157.310 213.580 ;
   END
-END comp
+END tt_um_Saitama224_comp
 END LIBRARY
 
