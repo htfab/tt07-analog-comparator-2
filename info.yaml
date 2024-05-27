@@ -23,8 +23,8 @@
         # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
         pinout:
           # Inputs
-          ui[0]: "in"
-          ui[1]: "ref"
+          ui[0]: ""
+          ui[1]: ""
           ui[2]: ""
           ui[3]: ""
           ui[4]: ""
@@ -33,8 +33,8 @@
           ui[7]: ""
 
           # Outputs
-          uo[0]: "out1"
-          uo[1]: "out2"
+          uo[0]: ""
+          uo[1]: ""
           uo[2]: ""
           uo[3]: ""
           uo[4]: ""
@@ -53,12 +53,9 @@
           uio[7]: ""
 
           # Analog pins - make sure to also set "analog_pins" above, else the pins won't be connected
-          ua[0]: ""
-          ua[1]: ""
-          ua[2]: ""
-          ua[3]: ""
-  ua[4]: ""
-  ua[5]: ""
+          ua[0]: "ref"
+          ua[1]: "in"
+          ua[2]: "out1"
 
 # Do not change!
 yaml_version: 6
