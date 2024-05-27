@@ -56,6 +56,9 @@ pinout:
   ua[0]: "ref"
   ua[1]: "in"
   ua[2]: "out1"
+  ua[3]: ""
+  ua[4]: ""
+  ua[5]: ""
 
 # Do not change!
 yaml_version: 6
