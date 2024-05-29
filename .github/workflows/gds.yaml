@@ -33,9 +33,6 @@ jobs:
     steps:
       - name: Run Tiny Tapeout Precheck
         uses: TinyTapeout/tt-gds-action/precheck@tt07
-        with:
-          tools-repo: htfab/tt-support-tools
-          tools-ref: revert-fuse-ports
 
   viewer:
     needs: gds
